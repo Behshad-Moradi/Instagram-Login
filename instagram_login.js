@@ -30,7 +30,7 @@ console.log("Password: " + password);
 	await page.type("[name='password']", password);
 		  	
 	await page.click('button[type="submit"]');
-	 	
+	 	 
  	//Wait 6 seconds to check the url
 	await sleep(timer);
 	if (oldUrl == page.url())
